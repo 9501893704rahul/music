@@ -60,5 +60,10 @@ RUN php artisan view:cache || true
 
 EXPOSE 8080
 
-# Start the application - use bash script to ensure PORT is evaluated
-CMD ["sh", "-c", "php artisan serve --host=0.0.0.0 --port=${PORT:-8080}"]
+# Create startup script that runs migrations and starts server
+RUN echo '#!/bin/sh\n\
+php artisan migrate --force || true\n\
+php artisan serve --host=0.0.0.0 --port=${PORT:-8080}' > /var/www/start.sh && chmod +x /var/www/start.sh
+
+# Start the application
+CMD ["/var/www/start.sh"]
