@@ -29,7 +29,7 @@ WORKDIR /var/www
 # Copy composer files first for caching
 COPY composer.json composer.lock ./
 
-# Install composer dependencies (ignoring platform reqs since vendor exists)
+# Install composer dependencies
 RUN composer install --no-dev --optimize-autoloader --no-scripts || true
 
 # Copy application files
@@ -38,20 +38,27 @@ COPY . .
 # Install npm dependencies and build
 RUN npm install && npm run build
 
+# Create storage directories and set permissions
+RUN mkdir -p storage/framework/{sessions,views,cache} \
+    && mkdir -p storage/logs \
+    && mkdir -p bootstrap/cache \
+    && chmod -R 775 storage bootstrap/cache
+
 # Create SQLite database
-RUN touch database/database.sqlite
+RUN touch database/database.sqlite && chmod 664 database/database.sqlite
 
-# Generate application key if not set
+# Set environment variables for Laravel
+ENV APP_ENV=production
+ENV APP_DEBUG=false
+ENV LOG_CHANNEL=stderr
+ENV DB_CONNECTION=sqlite
+ENV PORT=8080
+
+# Generate key and cache views only (skip config/route cache due to env issues at build time)
 RUN php artisan key:generate --force || true
-
-# Cache configuration
-RUN php artisan config:cache || true
-RUN php artisan route:cache || true
 RUN php artisan view:cache || true
 
-# Set default port (Railway overrides via PORT env var)
-ENV PORT=8080
 EXPOSE 8080
 
-# Start the application using shell form to expand $PORT
-CMD php artisan serve --host=0.0.0.0 --port=$PORT
+# Start the application - use bash script to ensure PORT is evaluated
+CMD ["sh", "-c", "php artisan serve --host=0.0.0.0 --port=${PORT:-8080}"]
