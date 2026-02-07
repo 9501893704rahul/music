@@ -1,0 +1,14 @@
+<?php
+
+/*
+ * All database connection variables
+ */
+
+define('DB_USER', "jammin"); // db user
+define('DB_PASSWORD', "jammin_db_123"); // db password (mention your db password here)
+define('DB_DATABASE', "jammin"); // database name
+//define('DB_SERVER', "216.172.189.246");
+define('DB_SERVER', "localhost");
+
+// db server
+?>

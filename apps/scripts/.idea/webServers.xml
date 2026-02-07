@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9fe3f741-5875-481f-a87c-88ab217cccd4" name="jammin_server" url="http://ec2-34-209-71-75.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-34-209-71-75.us-west-2.compute.amazonaws.com" port="22" privateKey="D:\jammin_root_acc\rootuser.pem" rootFolder="/opt/lampp/htdocs/jammin" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

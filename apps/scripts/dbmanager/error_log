@@ -1,0 +1,128 @@
+[16-Apr-2024 00:42:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/thump.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[21-Apr-2024 16:29:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/thump.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[20-May-2024 18:43:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/login.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[20-May-2024 18:43:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/logout.php(17): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[10-Aug-2024 02:01:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', 'h2u7s3nuZo6c', 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/login.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[10-Aug-2024 02:01:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', 'h2u7s3nuZo6c', 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/logout.php(17): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[27-Dec-2024 03:43:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/login.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[24-Feb-2025 18:19:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/create_account.php(5): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[24-Feb-2025 18:21:03 UTC] PHP Warning:  Undefined variable $xC in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_config.php on line 8
+[24-Feb-2025 18:21:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/create_account.php(5): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[24-Feb-2025 18:23:32 UTC] PHP Warning:  Undefined variable $xC in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_config.php on line 8
+[24-Feb-2025 18:23:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/create_account.php(5): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[04-Mar-2025 12:55:32 UTC] PHP Warning:  Undefined variable $xC in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_config.php on line 8
+[04-Mar-2025 12:55:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/thump.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[04-Mar-2025 12:57:20 UTC] PHP Warning:  Undefined variable $xC in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_config.php on line 8
+[04-Mar-2025 12:57:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/create_account.php(5): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[04-Mar-2025 12:58:03 UTC] PHP Warning:  Undefined variable $xC in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_config.php on line 8
+[04-Mar-2025 12:58:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/login.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[23-Apr-2025 11:05:42 UTC] PHP Warning:  Undefined variable $xC in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_config.php on line 8
+[23-Apr-2025 11:05:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/login.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[14-May-2025 19:37:43 UTC] PHP Warning:  Undefined variable $xC in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_config.php on line 8
+[14-May-2025 19:37:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/thump.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[19-May-2025 05:32:17 UTC] PHP Warning:  Undefined variable $xC in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_config.php on line 8
+[19-May-2025 05:32:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/thump.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
+[20-May-2025 04:58:55 UTC] PHP Warning:  Undefined variable $xC in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_config.php on line 8
+[20-May-2025 04:58:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dzm_jammin92_user'@'localhost' (using password: YES) in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php:29
+Stack trace:
+#0 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(29): mysqli_connect('localhost', 'dzm_jammin92_us...', Object(SensitiveParameterValue), 'dzm_jammin92')
+#1 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php(11): DB_CONNECT->connect()
+#2 /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/thump.php(9): DB_CONNECT->__construct()
+#3 {main}
+  thrown in /home/dzm/public_html/jammin92.com/apps/scripts/dbmanager/db_connect.php on line 29
