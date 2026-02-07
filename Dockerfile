@@ -49,8 +49,9 @@ RUN php artisan config:cache || true
 RUN php artisan route:cache || true
 RUN php artisan view:cache || true
 
-# Expose port
+# Set default port (Railway overrides via PORT env var)
+ENV PORT=8080
 EXPOSE 8080
 
-# Start the application
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8080"]
+# Start the application using shell form to expand $PORT
+CMD php artisan serve --host=0.0.0.0 --port=$PORT
